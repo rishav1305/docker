@@ -21,7 +21,7 @@ RUN git config --global user.name "rishav1305" && \
 # RUN git config --global url."git@github.com:".insteadOf "https://github.com/"
 
 RUN git clone https://github.com/rishav1305/AI_Agent.git
-RUN git clone https://github.com/rishav1305/Automated-DSA.git
+# RUN git clone https://github.com/rishav1305/Automated-DSA.git
 RUN pip install -r AI_Agent/requirements.txt
 
 RUN apt-get -y update; apt-get -y install curl
